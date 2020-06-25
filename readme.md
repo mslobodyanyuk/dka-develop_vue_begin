@@ -85,7 +85,7 @@ use `axios` (- https://github.com/axios/axios).
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 ```	
 
-We will use full-fledged `jQuery` as in` slim 'there is NO `ajax`.
+We will use full-fledged `jQuery` as in `slim` there is NO `ajax`.
 
 [(3:15)]( https://youtu.be/9dJQ8yXqizI?list=PLD5U-C5KK50UFbtFxPKlayhdZlOEpWuea&t=195 ) Let's enable font-awesome to use the icons. We remind you that this is ONLY for decoration.
 
