@@ -56,7 +56,7 @@ IF `DOM` is already loaded - OTHERWISE it will NOT work.
 ![screenshot of sample]( https://github.com/mslobodyanyuk/dka-develop_vue_begin/blob/master/public/images/1(1).png )
 
 So, let's show that at the end of the tutorial series of lessons we will do:
-- Heading with a variable And increasing the value of a variable by 1-tsu.
+- Heading with a variable And increasing the value of a variable by 1.
 - Tracking the state of the radio buttons, affecting the color of the border of the form block, in this case, the class will change. Blocks and markup elements will be hidden,
 reset values ​​of variables.
 - Asynchronous requests from remote sites will be used.
@@ -99,7 +99,7 @@ We will use full-fledged `jQuery` as in` slim 'there is NO `ajax`.
 Please note that we DO NOT download scripts to the local computer, but use cdn, so Vue will work IF your computer has Internet access. IF THE INTERNET
 weak - download and write down the local path to the scripts.
 
-[(4:00)]( https://youtu.be/9dJQ8yXqizI?list=PLD5U-C5KK50UFbtFxPKlayhdZlOEpWuea&t=240 ) Now, according to the proposed option, we derive something like `` Hello World! '' To check EVERYTHING WE have done correctly. Add a block element with `id = app` (- change the name to your own).
+[(4:00)]( https://youtu.be/9dJQ8yXqizI?list=PLD5U-C5KK50UFbtFxPKlayhdZlOEpWuea&t=240 ) Now, according to the proposed option, we derive something like "Hello World!" To check EVERYTHING WE have done correctly. Add a block element with `id = app` (- change the name to your own).
 By the way, it can be any:
 
 ```html	
@@ -135,7 +135,7 @@ will ignore this entry. In general, I recommend using `Vue-components` in `LARAV
 "Hello Vue!" - Great, EVERYTHING works.
   Now let's see how to use variables in attributes.
 
-[(5:50)]( https://youtu.be/9dJQ8yXqizI?list=PLD5U-C5KK50UFbtFxPKlayhdZlOEpWuea&t=350 ) To do this, use the `v-bind:` attribute name (`v-bind: title =" getDate "`), or you can simply `: title`, then the variable name (`: title = "getDate" `) .
+[(5:50)]( https://youtu.be/9dJQ8yXqizI?list=PLD5U-C5KK50UFbtFxPKlayhdZlOEpWuea&t=350 ) To do this, use the `v-bind:` attribute name (`v-bind: title ="getDate"`), or you can simply `: title`, then the variable name (`: title = "getDate" `) .
 	
 ```html	
 <label for="" title="getDate">Проверка времени</label> 
@@ -161,16 +161,19 @@ Today we will learn the `methods` hook And the Header with the variable And incr
 
 - Tracking the state of the radio buttons affecting the color of the border of the form block. In this case, the class will change.
 - Bidirectional data binding V-MODEL. Take the file from the 1st lesson and make a duplicate. (- You can take it from the repository on github - 
-<https://github.com/dka-develop/vuejs-new-tutorial/blob/master/tutorial.html> ).
+
+<https://github.com/dka-develop/vuejs-new-tutorial/blob/master/tutorial.html> 
+
+).
 
 [(1:00)]( https://youtu.be/mYcOBwn7Ji4?list=PLD5U-C5KK50UFbtFxPKlayhdZlOEpWuea&t=60 ) In the previous lesson, we focused on declaring variables in attributes and on the page. In this, let's start with the `methods` hook, add this parameter to the `Vue` construction, curly braces with an array of our methods,
 which in essence are functions that we will call.
 
-```html
+```php
 methods: {
-	tutorialDemo: function() {
-		this.counter++
-	}
+    tutorialDemo: function() {
+        this.counter++
+    }
 }	
 ```
 
